@@ -1,0 +1,5 @@
+# Hypothesis
+
+The goal of this thesis is two part. First, to provide evidence that the lateral amygdala performs sparse coding, whereby memories are allocated to similar proportions of neurons despite differences in the strength of those memories. Second, to show that inhibitory interneurons are implicated in the mechanisms that ensure this sparse coding. To test these hypotheses, I will manipulate memory strength in an auditory fear conditioning paradigm and measure the proportion of neurons in the LA allocated to an engram of conditioned fear. I will then perform a similar experiment including the inactivation a subset of inhibitory PV^+^ interneurons in the LA during fear conditioning. If these inhibitory cells are involved in a mechanism that constrains the engram, I predict that this manipulation will alter the number of the neurons allocated to the engram. Together, these results should provide novel evidence for the existence of memory allocation mechanisms in the LA that involve inhibitory interneurons.
+
+

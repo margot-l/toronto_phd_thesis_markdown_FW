@@ -77,3 +77,31 @@ Contributions to the template are encouraged! There are lots of things that coul
 - improving the style of Word and Tex outputs.
 
 Please fork and edit the project, then send a pull request.
+
+***
+
+## Dano's Additions
+
+I had problems using the included makefile on windows (makefiles are mostly a linux thing), so I would recommend just using the following code to produce a pdf of your thesis. Copy and paste the following code into a terminal (on Windows I like to use Git Bash)
+
+# How to build the thesis on Windows
+> pandoc source/*.md \
+    -o output/thesis.tex \
+    -H style/preamble.tex \
+    --bibliography=source/references.bib \
+    -V fontsize=12pt \
+    -V papersize=a4paper \
+    -V documentclass:report \
+    -N \
+    --csl=style/ref_format.csl \
+    --latex-engine=xelatex     
+
+# How to use citations
+The biggest time-sink I encountered using this typesetting approach was citations. It's pretty straightforward to include citations, but I do not believe there is a way to get any citation manager to produce the in-text citation keys that Pandoc and Bibtex need to have included. This is what I would recommend:
+1. Export your citation manager's library to a .bib file (this option should be available). Place that .bib file in the source folder along with your md documents.
+2. Go through your writing and convert your in-text citations to the following markdown format:
+> [@firstauthor_firstwordoftitle_year]   
+The exact key (ie. the irstauthor_firstwordoftitle_year part) is automatically generated in the .bib file you created. You'll have to look this key up for each reference.
+
+If you want to put multiple sources together in one citation, seperate them by semicolons, NOT commas
+> [@reijmers_counting_2001; @liu_optogenetics_2012]

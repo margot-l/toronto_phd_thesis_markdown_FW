@@ -1,12 +1,24 @@
-# Abstract {.unnumbered}
+\begin{center}
+\Large
+      The Sparse Engram of the Lateral Amygdala\\[2ex]
+      Dano Morrison\\
+      Master of Science\\
+      Graduate Department of Physiology\\
+      University of Toronto\\
+      2016\\
+\end{center}
+\normalsize
+\addcontentsline{toc}{chapter}{Abstract}
 
 <!-- This is the abstract -->
+\Large
+\noindent
+Abstract
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et turpis gravida, lacinia ante sit amet, sollicitudin erat. Aliquam efficitur vehicula leo sed condimentum. Phasellus lobortis eros vitae rutrum egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec at urna imperdiet, vulputate orci eu, sollicitudin leo. Donec nec dui sagittis, malesuada erat eget, vulputate tellus. Nam ullamcorper efficitur iaculis. Mauris eu vehicula nibh. In lectus turpis, tempor at felis a, egestas fermentum massa.
+\normalsize
+\setstretch{2.0}
+\noindent
+Memories are stored in the brain by discrete physiological changes, collectively referred to as an engram, that allow patterns of activity present during learning to be retrieved in the future. The work in this thesis tests the prediction from computational studies and experimental data that, within a given brain region such as the lateral amygdala, only a small proportion of neurons encodes any one memory and that this proportion remains relatively stable across different memories. First, it demonstrates that the size of the LA component of an engram remains constant between memories of different strengths. Then, it implicates parvalbumin-positive interneurons in the mechanisms that constraing the engram to a sparse proportion of neurons. Together, these results thesis provide additional support for the notion that the LA employs a sparse distributed coding scheme to store memories.
 
-
-
-
-
-
+\setstretch{1.5}
 
