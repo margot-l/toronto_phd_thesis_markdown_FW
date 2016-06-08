@@ -12,7 +12,7 @@ and add the centred logo
         \vspace*{2.5cm}
         
         \huge
-        The Title of the Thesis
+        The Sparse Engram of the Lateral Amygdala
         
         \vspace{1.5cm}
 
@@ -20,7 +20,7 @@ and add the centred logo
         \vspace{1.5cm}
         
         \Large
-        Your Name
+        Dano Morrison
 
         \vspace{1.5cm}
 
@@ -31,12 +31,12 @@ and add the centred logo
         \vfill
         
         \normalsize
-        Department of Whatever\\
+        Department of Physiology\\
         University of Toronto
 
         \vspace{0.8cm}
 
-        % Copyright by Your Name 2016.
+        % Copyright by Dano Morrison 2016.
 
     \end{center}
 \end{titlepage}
