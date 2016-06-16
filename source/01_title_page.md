@@ -12,7 +12,7 @@ and add the centred logo
         \vspace*{2.5cm}
         
         \huge
-        The Sparse Engram of the Lateral Amygdala
+        The Title of the Thesis
         
         \vspace{1.5cm}
 
@@ -20,7 +20,7 @@ and add the centred logo
         \vspace{1.5cm}
         
         \Large
-        Dano Morrison
+        Your Name
 
         \vspace{1.5cm}
 
@@ -36,7 +36,7 @@ and add the centred logo
 
         \vspace{0.8cm}
 
-        % Copyright by Dano Morrison 2016.
+        % Copyright by Your Name 2016.
 
     \end{center}
 \end{titlepage}

@@ -86,7 +86,7 @@ I had problems using the included makefile on windows (makefiles are mostly a li
 
 # How to build the thesis on Windows
 > pandoc source/*.md \
-    -o output/thesis.tex \
+    -o output/thesis.pdf \
     -H style/preamble.tex \
     --bibliography=source/references.bib \
     -V fontsize=12pt \
