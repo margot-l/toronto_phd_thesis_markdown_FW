@@ -1,3 +1,4 @@
+\setlength{\parindent}{0cm}
 \footnotesize
 
 <!-- 
