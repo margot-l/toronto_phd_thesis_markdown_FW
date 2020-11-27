@@ -77,7 +77,7 @@
 %Attempt to set math size
 %First size must match the text size in the document or command will not work
 %\DeclareMathSizes{display size}{text size}{script size}{scriptscript size}.
-%\DeclareMathSizes{12}{13}{7}{7}
+%\DeclareMathSizes{12}{13}{13}{13}
 
 % ---- CUSTOM AMPERSAND
 % \newcommand{\amper}{{\fontspec[Scale=.95]{Adobe Caslon Pro}\selectfont\itshape\&}}
@@ -105,7 +105,7 @@
 
 % Set margins
 \usepackage[top=1.5in,bottom=1.5in,left=1.5in,right=1.4in]{geometry}
-\setlength\parindent{0.5in} % indent at start of paragraphs (set to 0.3?)
+\setlength\parindent{1cm} % indent at start of paragraphs (set to 0.3?)
 \setlength{\parskip}{9pt}
 \usepackage{indentfirst}
 
@@ -116,7 +116,7 @@
 
 % Set colour of links to black so that they don't show up when printed
 \usepackage{hyperref}
-\hypersetup{colorlinks=false, linkcolor=black}
+\hypersetup{colorlinks=true, linkcolor=black}
 
 % Tables
 \usepackage{booktabs}
